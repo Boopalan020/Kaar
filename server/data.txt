@@ -1,0 +1,14 @@
+{
+    "Employee_name":"Boopalan M",
+    "joining_data":"2020-12-09",
+    "qualification":"BE",
+    "mail":"boopalanm.17cse@kongu.edu",
+    "role":"At intern"
+}
+{
+    "Employee_name":"Hari prasath",
+    "joining_data":"2020-12-09",
+    "qualification":"BE",
+    "mail":"hariprasath.17cse@kongu.edu",
+    "role":"At intern"
+}
