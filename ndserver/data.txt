@@ -1,0 +1,6 @@
+
+Employee_name: Palan
+joining_data :2020-12-02
+qualification :BE
+mail :boopalan020@gmail.com
+role :trainee
