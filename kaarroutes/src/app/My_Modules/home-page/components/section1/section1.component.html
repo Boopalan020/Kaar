@@ -1,0 +1,14 @@
+<h5 class="text-success">
+    {{ homecontent }}
+</h5>
+
+<div style = "width: 15em;" class="ml-3">
+    <label>Type something : </label>
+    <input [(ngModel)] = "texts" type="text" class="form-control" placeholder="hi..."> <br>
+
+    <button class="btn-primary" (click) = "clearFunc()">
+        Click me !
+    </button>
+
+    <h4> {{ texts }} </h4>
+</div>

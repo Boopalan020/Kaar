@@ -1,0 +1,19 @@
+<div class="container-fluid bg-success p-3">
+    
+    <span class="text-white"> 
+        <h4>
+            Parent data : ({{ parentdata }})
+        </h4>
+
+        <br>
+
+        <span *ngIf = "isReceived" >
+            Data from child :<mark> {{ datafromchild }} </mark>
+        </span>
+    </span>
+    <br>
+    <button class="btn-primary" (click) = "sendtochild()">Send to Child</button>
+
+</div>
+
+<app-child [datafromparent] = "datatochild" class="text-white" (receive) = 'receiveData($event)'></app-child>
