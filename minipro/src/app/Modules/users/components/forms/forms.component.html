@@ -1,0 +1,23 @@
+<div class="container-fluid">
+    <div class="form-group">
+        <label>Emp-ID</label>
+        <input #ids class="form-control" type = "text" name = "empid" placeholder="id">
+    </div>
+
+    <div class="form-group">
+        <label>Name</label>
+        <input #ename class="form-control" type = "text" name = "ename" placeholder="employee name">
+    </div>
+
+    <div class="form-group">
+        <label>Role</label>
+        <input #erole class="form-control" type = "text" name = "erole" placeholder="employee role">
+    </div>
+
+    <div class="form-group">
+        <label>Joined date</label>
+        <input #ejoin class="form-control" type = "date" name = "edate" placeholder="joining date">
+    </div>
+
+    <button (click) = "loadformdata(ids.value, ename.value, erole.value, ejoin.value)" mat-raised-button color = "primary">Submit</button>
+</div>

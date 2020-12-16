@@ -1,0 +1,10 @@
+.nav-right {
+    text-align: right;
+}
+
+.zoom-text {
+    margin-left: 2rem;
+    color: #4285F4; 
+    font-weight: bolder; 
+    font-size: larger;
+}

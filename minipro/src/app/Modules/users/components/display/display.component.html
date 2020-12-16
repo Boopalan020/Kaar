@@ -1,0 +1,32 @@
+<div>
+    <div class="row">
+        <div class="col-7">
+            <div class = "container-fluid h-100">
+                <h2 class="text-primary"> Parent Storing data </h2>
+                <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">id</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Role</th>
+                        <th scope="col">Joining</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor = "let emp of empData">
+                            <th scope = "row"> {{ emp.id }} </th>
+                            <td> {{ emp.name }} </td>
+                            <td> {{ emp.Role }} </td>
+                            <td> {{ emp.Joining }} </td>
+                        </tr>                      
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+
+        <div class="col-5">
+            <h2 class="text-primary"> Child Collecting data </h2>
+            <app-forms (loaddata) = "pushdata($event)"></app-forms>
+        </div>
+    </div>
+</div>
