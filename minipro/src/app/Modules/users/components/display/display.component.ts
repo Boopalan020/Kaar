@@ -11,25 +11,25 @@ export class DisplayComponent implements OnInit {
     {
       id : "2342f",
       name : "Boopalan",
-      Role : "trainee",
+      Role : "At intern",
       Joining : "07-12-2020",
     },
     {
       id : "2er342f",
       name : "Hari prasath",
-      Role : "trainee",
+      Role : "At intern",
       Joining : "07-12-2020",
     },
     {
-      id : "2er342f",
-      name : "Hari prasath",
-      Role : "trainee",
+      id : "534gs",
+      name : "Dhivakar L",
+      Role : "At intern",
       Joining : "07-12-2020",
     },
     {
-      id : "2er342f",
-      name : "Hari prasath",
-      Role : "trainee",
+      id : "534trgs",
+      name : "Ramesh",
+      Role : "At intern",
       Joining : "07-12-2020",
     }
   ]
